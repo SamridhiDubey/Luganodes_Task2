@@ -1,7 +1,7 @@
 # Deployed URL:
 https://luganodes.vercel.app
 
-# How to run it locally?
+# Instructions - How to run it locally?
 
 ## Step-1: 
 
