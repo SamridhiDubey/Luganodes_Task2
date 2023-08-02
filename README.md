@@ -1,4 +1,4 @@
-## Deployed URL:
+# Deployed URL:
 https://luganodes.vercel.app
 
 # How to run it locally?
