@@ -31,11 +31,16 @@ The page will reload when you make changes.\
 
 If you face any babel dependecies error, then follow this step, and then again run it locally.
 
+## To run your application using Docker Compose, navigate to application's root directory (where the docker-compose.yml file is located) and execute the following command:
+
+### `docker-compose up`
+
+Make sure you have Docker and Docker Compose installed on your system before running the above command. Also, ensure that you have set the correct REACT_APP_CLERK_PUBLISHABLE_KEY environment variable in the .env file or in your CI/CD environment if you plan to deploy the application.
+
 ## Features:
 
 1) As asked, the chains data are displayed in the UI for all the users from the API.
 2) Also added login functionality, where user can sign in and sign out.
 3) It is completely responsive and can be used with any device.
 4) Made with proper Error Handling using Error Boundary in React
-
 
