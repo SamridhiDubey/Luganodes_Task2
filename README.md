@@ -35,6 +35,7 @@ If you face any babel dependecies error, then follow this step, and then again r
 
 1) As asked, the chains data are displayed in the UI for all the users from the API.
 2) Also added login functionality, where user can sign in and sign out.
-3) It is completely responsive and can be used with any device
+3) It is completely responsive and can be used with any device.
+4) Made with proper Error Handling using Error Boundary in React
 
 
