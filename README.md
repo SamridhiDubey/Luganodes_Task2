@@ -28,6 +28,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 
+## Step-4:
+
+### `npm install --save-dev @babel/plugin-proposal-private-property-in-object`
+
+If you face any babel dependecies error, then follow this step, and then again run it locally.
+
 ## Features:
 
 1) As asked, the chains data are displayed in the UI for all the users from the API.
