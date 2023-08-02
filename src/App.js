@@ -8,6 +8,7 @@ import {
 } from "@clerk/clerk-react";
 import Home from './components/home';
 import Stake from './components/stake';
+import ErrorBoundary from './ErrorBoundary';
 
 if (!process.env.REACT_APP_CLERK_PUBLISHABLE_KEY) {
   throw new Error("Missing Publishable Key")
@@ -45,9 +46,11 @@ function ClerkProviderWithRoutes() {
 
 function App() {
   return (
+  <ErrorBoundary>
     <BrowserRouter>
       <ClerkProviderWithRoutes />
     </BrowserRouter>
+  </ErrorBoundary>
   );
 }
 
