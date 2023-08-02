@@ -11,13 +11,10 @@ Install all the necessary dependencies before running the app locally.
 
 ## Step-2: 
 
-### `Create a file name ".env" in the root directory of the app.`
+### `REACT_APP_CLERK_PUBLISHABLE_KEY=<CLERK_PUBLISHABLE_KEY>`
+### `REACT_APP_BLOCK_API_KEY=<BLOCK_API_KEY>`
 
-After adding this file, add the below code and replace the text with your actual key:
-
-REACT_APP_CLERK_PUBLISHABLE_KEY=<CLERK_PUBLISHABLE_KEY>
-
-REACT_APP_BLOCK_API_KEY=<BLOCK_API_KEY>
+Create a file name ".env" in the root directory of the app and add the above block of code in the .env file which you created recently and replace the text with your actual key:
 
 ## Step-3:
 
