@@ -11,9 +11,9 @@ Install all the necessary dependencies before running the app locally.
 
 ## Step-2: 
 
-### `Create a file name ".env"`
+### `Create a file name ".env" in the root directory of the app.`
 
-After adding this file, add this code:
+After adding this file, add the below code and replace the text with your actual key:
 
 REACT_APP_CLERK_PUBLISHABLE_KEY=<CLERK_PUBLISHABLE_KEY>
 
